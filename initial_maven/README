@@ -1,0 +1,31 @@
+  # JSON Sorting Service
+
+This project is a Java application that provides a service for sorting JSON arrays under specified keys using HTTP requests.
+
+## Getting Started
+
+To run this project, you'll need Java 8 or later installed on your machine.
+
+### Running the Service
+
+1. Clone this repository to your local machine.
+
+```bash
+git clone https://github.com/FlashHurricane/SortingService.git
+
+1.Navigate to the project directory.
+cd SortingService
+
+2.Build and run the project using Maven.
+mvn clean compile exec:java
+
+Sending an Example Request
+```curl
+curl -X POST -H "Content-Type: application/json" -d @src/main/resources/example.json http:/
+
+Running Tests
+
+1.Navigate to the project directory if you're not already there.
+cd your-repo-name
+2.Run tests using Maven.
+mvn test
